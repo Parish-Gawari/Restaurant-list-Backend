@@ -19,5 +19,5 @@ connectMySql();
 
 app.use("/crud", crudRouter);
 app.listen(8090, () => {
-  console.log("Srever running on port 8090");
+  console.log("Server running on port 8090");
 });
